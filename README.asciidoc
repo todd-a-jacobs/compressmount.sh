@@ -1,0 +1,48 @@
+= CompressMount
+
+== Name
+     compressmount.sh
+
+== Version
+     $Format:Git ID: (%h) %ci$
+
+== Purpose
+     Mount a fusecompress filesystem.
+
+== Usage
+     compressmount.sh [-h|-u|-v]
+
+== Options
+     -h = show help
+     -u = unmount
+     -v = show version
+
+== Environment Variables
+    FC_PARENT = parent directory for both compressed backing directory
+                and uncompressed mountpoint
+    FC_NAME   = name of mountpoint; also used to create hidden
+                backing directory
+
+== Errorlevels
+    0 = Success
+    1 = Failure
+    2 = Other
+
+== Copyright
+    Copyright (c) 2011 by Todd A. Jacobs <bash_junkie@codegnome.org>
+    All Rights Reserved
+
+== License
+    Released under the GNU General Public License (GPL)
+    http://www.gnu.org/copyleft/gpl.html
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License as
+    published by the Free Software Foundation; either version 3 of the
+    License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+    General Public License for more details.
+
